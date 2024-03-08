@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", function () {
         context.strokeStyle = "#e74c3c"; // Red color
         context.beginPath();
         context.moveTo(revolvingX, revolvingY);
-        context.lineTo(revolvingX+100, revolvingY); // Adjust the length of the line
+        context.lineTo(350, revolvingY); // Adjust the length of the line
         context.stroke();
         
 
